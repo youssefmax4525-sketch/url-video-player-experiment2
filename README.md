@@ -2,6 +2,9 @@
 
 This is NOT the original source code of the app.
 
+## Status
+Only the README and `patch/` are in this repo so far. The browser upload of binary files failed, so `releases/` and `decoded-patched-base/` described below are NOT uploaded yet. Their SHA256 (phone APKS): 3d0409d2e16418597e43e206e689aa7838bd612ba8e003ec77955764ed2882f0.
+
 ## What this is
 - The app is a third-party Android video player, package `info.t4w.vp`, version 4.0, build 413. No original project (Gradle, Java or Kotlin source) was ever available. It was never written or owned by the repo owner.
 - `releases/` holds the phone build (experiment2) the owner tested and approved on Nov 23, 2026: `UrlVideoPlayer-4.0-experiment2-original-resources-48ff7a73.apks` (7,732,958 bytes, SHA256 in `SHA256SUMS`). It has the base APK plus ar, arm64_v8a, en and xhdpi splits.
