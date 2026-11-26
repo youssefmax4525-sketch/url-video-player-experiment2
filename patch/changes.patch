@@ -1,0 +1,37 @@
+--- original/smali/info/t4w/vp/view/VideoPlayer.smali
++++ experiment/smali/info/t4w/vp/view/VideoPlayer.smali
+@@ -8543,7 +8543,9 @@
+     .line 873
+     .line 874
+     .line 875
+-    invoke-static {p0, p1, v0, v1}, LRTuÒD5;->e8$mp_s$(Landroid/content/Context;Ljava/lang/String;LtmpOffset3178;LIemp;)V
++    const/4 v2, 0x0
++
++    invoke-virtual {v1, v2}, LlenIth;->$ÒcdS(LD6$Ff_rK$;)V
+     :try_end_5
+     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_5
+ 
+--- original/smali/sPos9472.smali
++++ experiment/smali/sPos9472.smali
+@@ -101,7 +101,9 @@
+     .line 36
+     .line 37
+     .line 38
+-    invoke-static {v1, v0, v3, v4}, LRTuÒD5;->e8$mp_s$(Landroid/content/Context;Ljava/lang/String;LtmpOffset3178;LIemp;)V
++    const/4 v0, 0x0
++
++    invoke-virtual {v4, v0}, LlenIth;->$ÒcdS(LD6$Ff_rK$;)V
+ 
+     .line 39
+     .line 40
+@@ -166,7 +168,9 @@
+     .line 70
+     .line 71
+     .line 72
+-    invoke-static {v1, v0, v2, v3}, LRTuÒD5;->e8$mp_s$(Landroid/content/Context;Ljava/lang/String;LtmpOffset3178;LIemp;)V
++    const/4 v0, 0x0
++
++    invoke-virtual {v3, v0}, LlenIth;->$ÒcdS(LD6$Ff_rK$;)V
+ 
+     .line 73
+     .line 74
