@@ -1,4 +1,4 @@
-# url-video-player-experiment2 (private)
+# url-video-player-experiment2 (public)
 
 This is NOT the original source code of the app.
 
