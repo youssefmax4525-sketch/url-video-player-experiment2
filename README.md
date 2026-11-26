@@ -7,7 +7,7 @@ This is NOT the original source code of the app.
 
 ## What this is
 - The app is a third-party Android video player, package `info.t4w.vp`, version 4.0, build 413. No original project (Gradle, Java or Kotlin source) was ever available. It was never written or owned by the repo owner.
-- `releases/` holds the phone build (experiment2) the owner tested and approved on Nov 23, 2026: `UrlVideoPlayer-4.0-experiment2-original-resources-48ff7a73.apks` (7,732,958 bytes, SHA256 in `SHA256SUMS`). It has the base APK plus ar, arm64_v8a, en and xhdpi splits.
+- `releases/` holds the earlier phone build (experiment2), delivered to the owner on Nov 23, 2026 (no device-test result is recorded in this repo): `UrlVideoPlayer-4.0-experiment2-original-resources-48ff7a73.apks` (7,732,958 bytes, SHA256 in `SHA256SUMS`). It has the base APK plus ar, arm64_v8a, en and xhdpi splits.
 - `patch/changes.patch` is the small change that makes experiment2: it redirects 3 ad-request calls in `VideoPlayer.smali` and `sPos9472.smali` to the existing no-ad callback. `patch/patch_narrow.py` is the script that applied it to a decoded tree.
 - `decoded-patched-base/decoded-patched-base.zip` is an apktool decode (smali code and resources) of the patched `base.apk` from that same build. The patch is already applied in it. It is a decompile for reference, not original source, and it was not rebuilt or tested from this tree.
 
@@ -21,5 +21,5 @@ This is NOT the original source code of the app.
 - No Ostora frontend trials.
 
 ## Notes
-- Only the owner tested the phone build. Nobody else tested it.
+- No device-test results are recorded here. Builds were checked statically (rebuilt, signed, decoded); playback on a device is unconfirmed unless stated otherwise.
 - Rebuilding from the decoded tree needs apktool and a new signing key.
