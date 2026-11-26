@@ -2,8 +2,8 @@
 
 This is NOT the original source code of the app.
 
-## Status
-Only the README and `patch/` are in this repo so far. The browser upload of binary files failed, so `releases/` and `decoded-patched-base/` described below are NOT uploaded yet. Their SHA256 (phone APKS): 3d0409d2e16418597e43e206e689aa7838bd612ba8e003ec77955764ed2882f0.
+## Contents
+`releases/` (phone APKS + SHA256SUMS), `patch/` (the change), `decoded-patched-base/decoded-patched-base.zip` (apktool decode of the patched base.apk). Phone APKS SHA256: 3d0409d2e16418597e43e206e689aa7838bd612ba8e003ec77955764ed2882f0.
 
 ## What this is
 - The app is a third-party Android video player, package `info.t4w.vp`, version 4.0, build 413. No original project (Gradle, Java or Kotlin source) was ever available. It was never written or owned by the repo owner.
